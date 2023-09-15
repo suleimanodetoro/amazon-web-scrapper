@@ -1,4 +1,4 @@
-import { DocumentMagnifyingGlassIcon } from '@heroicons/react/24/outline'
+import { DocumentMagnifyingGlassIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 
 function Sidebar() {
