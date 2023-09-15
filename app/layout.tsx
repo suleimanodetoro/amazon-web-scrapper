@@ -14,7 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex">
+      {/* body should be the height of the screen(Helps the sidebar take up vertical length of screen) */}
+      <body className="flex bg-[#F7FBFF] h-screen">
         {/* Sidebar */}
         <Sidebar />
         <main>
